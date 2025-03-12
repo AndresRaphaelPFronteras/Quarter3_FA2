@@ -1,0 +1,30 @@
+
+<html lang = "en">
+    <head>
+        <title> CS 3 Q3 FA2 </title>
+        <link rel = "stylesheet" href = "styles.css">
+        <script src = "script.js"> </script>
+    </head>
+    <body>
+        <h1> calcU </h1> 
+        <p> Enter a number inside each box and click the desired operation <br>
+            operation to be performed. 
+        </p>
+        
+        <section onclick = "getInput(input.id)">
+            <input id = "numberOneInput" type = "text" placeholder = "Number 1">
+            <input id = "numberTwoInput" type = "text" placeholder = "Number 2"> 
+        </section> <br>
+        
+        <section onclick = "mainProcedure(numberOneGlobal, numberTwoGlobal)">
+            <button id = "sum"> + </button>
+            <button id = "difference"> - </button>
+            <button id = "product"> * </button>
+            <button id = "quotient"> / </button>
+            <button id = "remainder"> % </button>
+        </section>
+        
+        <p id = "resultOutput"> Result will be displayed here. </p>
+    </body>
+</html>
+
